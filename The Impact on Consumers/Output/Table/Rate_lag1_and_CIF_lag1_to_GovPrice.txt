@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               GovPrice   R-squared:                       0.862
+Model:                            OLS   Adj. R-squared:                  0.849
+Method:                 Least Squares   F-statistic:                     68.43
+Date:                Sun, 10 Aug 2025   Prob (F-statistic):           3.59e-10
+Time:                        00:37:42   Log-Likelihood:                -62.734
+No. Observations:                  25   AIC:                             131.5
+Df Residuals:                      22   BIC:                             135.1
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         23.8068      4.342      5.483      0.000      14.803      32.811
+Rate_lag1      0.1040      0.047      2.217      0.037       0.007       0.201
+CIF_lag1       0.5914      0.075      7.855      0.000       0.435       0.747
+==============================================================================
+Omnibus:                        2.446   Durbin-Watson:                   1.575
+Prob(Omnibus):                  0.294   Jarque-Bera (JB):                1.087
+Skew:                          -0.082   Prob(JB):                        0.581
+Kurtosis:                       4.008   Cond. No.                         833.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               CIF_lag1   R-squared:                       0.360
+Model:                            OLS   Adj. R-squared:                  0.333
+Method:                 Least Squares   F-statistic:                     12.96
+Date:                Sun, 10 Aug 2025   Prob (F-statistic):            0.00151
+Time:                        00:37:42   Log-Likelihood:                -88.759
+No. Observations:                  25   AIC:                             181.5
+Df Residuals:                      23   BIC:                             184.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -4.6906     11.986     -0.391      0.699     -29.486      20.104
+Rate_lag1      0.3740      0.104      3.601      0.002       0.159       0.589
+==============================================================================
+Omnibus:                        5.276   Durbin-Watson:                   0.346
+Prob(Omnibus):                  0.072   Jarque-Bera (JB):                4.212
+Skew:                           1.005   Prob(JB):                        0.122
+Kurtosis:                       3.006   Cond. No.                         787.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

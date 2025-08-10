@@ -1,0 +1,68 @@
+[Food Service: Path a₁ summary]
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:               gpm_lag0   R-squared:                        0.0017
+Estimator:                   PanelOLS   R-squared (Between):            2.22e-16
+No. Observations:                  93   R-squared (Within):               0.0017
+Date:                Wed, Aug 06 2025   R-squared (Overall):              0.0002
+Time:                        01:45:11   Log-likelihood                    292.88
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      0.1475
+Entities:                           3   P-value                           0.7019
+Avg Obs:                       31.000   Distribution:                    F(1,89)
+Min Obs:                       31.000                                           
+Max Obs:                       31.000   F-statistic (robust):             0.1890
+                                        P-value                           0.6648
+Time periods:                      31   Distribution:                    F(1,89)
+Avg Obs:                       3.0000                                           
+Min Obs:                       3.0000                                           
+Max Obs:                       3.0000                                           
+                                                                                
+                             Parameter Estimates                              
+==============================================================================
+            Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------
+const          0.7121     0.0095     75.288     0.0000      0.6933      0.7309
+gov_lag9   -7.134e-05     0.0002    -0.4347     0.6648     -0.0004      0.0003
+==============================================================================
+
+F-test for Poolability: 292.83
+P-value: 0.0000
+Distribution: F(2,89)
+
+Included effects: Entity
+
+[Food Service: Path b₁, c₁' summary]
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                    CPI   R-squared:                        0.6599
+Estimator:                   PanelOLS   R-squared (Between):          -3.089e+28
+No. Observations:                  93   R-squared (Within):               0.6599
+Date:                Wed, Aug 06 2025   R-squared (Overall):              0.4568
+Time:                        01:45:11   Log-likelihood                   -241.05
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      85.384
+Entities:                           3   P-value                           0.0000
+Avg Obs:                       31.000   Distribution:                    F(2,88)
+Min Obs:                       31.000                                           
+Max Obs:                       31.000   F-statistic (robust):             13.784
+                                        P-value                           0.0000
+Time periods:                      31   Distribution:                    F(2,88)
+Avg Obs:                       3.0000                                           
+Min Obs:                       3.0000                                           
+Max Obs:                       3.0000                                           
+                                                                                
+                             Parameter Estimates                              
+==============================================================================
+            Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------
+const          154.34     39.681     3.8894     0.0002      75.478      233.19
+gpm_lag9      -112.04     61.170    -1.8316     0.0704     -233.60      9.5258
+gov_t          0.4586     0.0995     4.6104     0.0000      0.2609      0.6563
+==============================================================================
+
+F-test for Poolability: 3.0188
+P-value: 0.0539
+Distribution: F(2,88)
+
+Included effects: Entity

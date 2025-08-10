@@ -1,0 +1,68 @@
+[Wheat Processing: Path a summary]
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:               gpm_lag0   R-squared:                        0.4743
+Estimator:                   PanelOLS   R-squared (Between):              0.0000
+No. Observations:                 105   R-squared (Within):               0.4743
+Date:                Sun, Aug 10 2025   R-squared (Overall):              0.1563
+Time:                        00:38:19   Log-likelihood                    264.41
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      91.140
+Entities:                           3   P-value                           0.0000
+Avg Obs:                       35.000   Distribution:                   F(1,101)
+Min Obs:                       35.000                                           
+Max Obs:                       35.000   F-statistic (robust):             34.739
+                                        P-value                           0.0000
+Time periods:                      35   Distribution:                   F(1,101)
+Avg Obs:                       3.0000                                           
+Min Obs:                       3.0000                                           
+Max Obs:                       3.0000                                           
+                                                                                
+                             Parameter Estimates                              
+==============================================================================
+            Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------
+const          0.4079     0.0216     18.895     0.0000      0.3651      0.4507
+gov_lag0      -0.0020     0.0003    -5.8939     0.0000     -0.0027     -0.0013
+==============================================================================
+
+F-test for Poolability: 195.51
+P-value: 0.0000
+Distribution: F(2,101)
+
+Included effects: Entity
+
+[Wheat Processing: Path b, c' summary]
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                    CPI   R-squared:                        0.8801
+Estimator:                   PanelOLS   R-squared (Between):              0.0000
+No. Observations:                 105   R-squared (Within):               0.8801
+Date:                Sun, Aug 10 2025   R-squared (Overall):              0.7950
+Time:                        00:38:19   Log-likelihood                   -264.63
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      366.96
+Entities:                           3   P-value                           0.0000
+Avg Obs:                       35.000   Distribution:                   F(2,100)
+Min Obs:                       35.000                                           
+Max Obs:                       35.000   F-statistic (robust):             80.447
+                                        P-value                           0.0000
+Time periods:                      35   Distribution:                   F(2,100)
+Avg Obs:                       3.0000                                           
+Min Obs:                       3.0000                                           
+Max Obs:                       3.0000                                           
+                                                                                
+                             Parameter Estimates                              
+==============================================================================
+            Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------
+const          80.930     5.0707     15.960     0.0000      70.870      90.990
+gpm_lag5      -66.126     11.563    -5.7187     0.0000     -89.067     -43.185
+gov_lag2       0.7563     0.0680     11.121     0.0000      0.6214      0.8912
+==============================================================================
+
+F-test for Poolability: 5.4403
+P-value: 0.0057
+Distribution: F(2,100)
+
+Included effects: Entity
